@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "函数图板",
+      "hasCanvas": true,
+      "bodyTextLen": 330,
+      "bodyTextHash": "23fc4d0dece23c79812a601dab674b96f8d9f18baa6391442835892a6a9a4413",
+      "bodyTextPrefix": "光标 RAD 移动光标或轻点图面 sin(x) — cos(x) — 坐标绘图 函数图板 拖拽平移，滚轮或双指缩放。把光标移到图",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "函数图板",
+      "hasCanvas": true,
+      "bodyTextLen": 346,
+      "bodyTextHash": "489bac1b5e1c98cd94aed33c19b3fc9c1a07f94bbb279f307f811f40e099f251",
+      "bodyTextPrefix": "光标 RAD 移动光标或轻点图面 sin(x) — cos(x) — 坐标绘图 函数图板 拖拽平移，滚轮或双指缩放。把光标移到图",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/og.jpg is missing. Games and visually rich apps must ship a custom 1200x630 share card built from the app's own art — the default og.grok.me placeholder card is not acceptable for them. You are not done: open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass.",
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
